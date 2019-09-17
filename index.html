@@ -1,37 +1,37 @@
 <html>
   <head>
-    
+   <style>
+     body {
+       background-color: lightblue;
+     }
+     h2 {
+       color: maroon;
+     }
+    </style>
     <meta charset="UTF-8">
-    <title>Repository of Static Analysis of Android Apps</title>
+    <title>Repository of Static Analysis Publications </title>
   </head>
   <body>
 
   <p>
-  <h2>SA3Repo: Static Analysis of Android Apps Repository</h2>
-
-  <p>
-  <font color="red">
-  * This repository will be continously maintained and updated.
-  If you have any suggestion (e.g., reporting errors, updating some items, or proposing new relevant publications), 
-  please let us know through the github issue system .
-  </font>
-  </p>
+  <h2>Static Analysis Publications [2009-2019]</h2>
 
   <h3>Context</h3>
-  Static analysis approaches have been proposed to assess the security of Android apps, by searching for known vulnerabilities or actual malicious code. The literature thus has proposed a large body of works, each of which attempts to tackle one or more of the several challenges that program analyzers face when dealing with Android apps.
+  Static analysis approaches are evaluated using various methodologies like using the benchmarks,test corpus,comparison with existing approaches. This repository consists of the static analysis publications with a detailed evaluation methodology from venues like PLDI,POPL,ICSE,ISSTA,TOSEM, published in the timeline 2009-2019
   
   <h3>Objective</h3>
-  We aim to provide a clear view of the state-of-the-art works that statically analyze Android apps, from which we highlight the trends of static analysis approaches, pinpoint where the focus has been put and enumerate the key aspects where future researches are still needed.
+  The publications in the repository gives a overview on the different evaluation method used for various static analysis approaches.
 
   <h3>Method</h3>
-  We have performed a systematic literature review which involves studying around 124 research papers published in software engineering, programming languages and security venues. This review is performed mainly in five dimensions: problems targeted by the approach, fundamental techniques used by authors, static analysis sensitivities considered, android characteristics taken into account and the scale of evaluation performed.
-
-  <h3>Results</h3>
-  Our in-depth examination have led to several key findings: 1) Static analysis is largely performed to uncover security and privacy issues; 2) The Soot framework and the Jimple intermediate representation are the most adopted basic support tool and format, respectively; 3) Taint analysis remains the most applied technique in research approaches; 4) Most approaches support several analysis sensitivities, but very few approaches consider path-sensitivity; 5) There is no single work that has been proposed to tackle all challenges of static analysis that are related to Android programming; and 6) Only a small portion of state-of-the-art works have made their artifacts publicly available.
+  We performed a systematic literaure survey based on Kitchenham method by various steps including the data collection, quality assessment, data extraction. The publications are gathered from various important venues in the software engineering.The literature survey was conducted based on the snowballing approach and also key word search. All the publications gathered have an evaluation section giving a detailed description of the method used to evaluate the static analysis approach.
 
   <h3>Conclusion</h3>
-  The research community is still facing a number of challenges for building approaches that are aware altogether of implicit-Flows, dynamic code loading features, reflective calls, native code and multi-threading, in order to implement sound and highly precise static analyzers.
-  </p>
+  The literature survey yielded the following results 
+    <ul>
+      <li> The most common evaluation methodology for static analysis are using real world applications, microbenchmarks, benchmarks, comparison with the existing approaches.
+     <li> The data set size used for the static analysis approach depends on the metrics considered while evaluationg the static analysis.
+    </ul>
+ </p>
   
   
   
